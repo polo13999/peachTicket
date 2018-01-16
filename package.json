@@ -1,0 +1,32 @@
+{
+  "name": "peachTicket",
+  "version": "1.0.0",
+  "description": "可以搜尋區段的便宜價格",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\"  \"cd ./dist/ && node index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polo13999/autoithome.git"
+  },
+  "keywords": [
+    "peach",
+    "ticket",
+    "auto",
+    "puppeteer"
+  ],
+  "author": "polo <polo13999@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polo13999/autoithome/issues"
+  },
+  "homepage": "https://github.com/polo13999/autoithome#readme",
+  "dependencies": {
+    "@types/puppeteer": "^0.13.9",
+    "concurrently": "^3.5.1",
+    "puppeteer": "^1.0.0",
+    "typescript": "^2.6.2",
+    "typescript-styled-plugin": "^0.3.1"
+  }
+}

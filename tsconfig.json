@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": false,
+    "module": "commonjs",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "./dist",
+    "node_modules"
+  ]
+}
